@@ -1,0 +1,24 @@
+{
+    "name": "sunjun/test",
+    "description": "这是一个 测版本的包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sunjun",
+            "email": "827640651@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jun\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jun\\Tests\\": "tests/"
+        }
+    }
+}
